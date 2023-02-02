@@ -1,0 +1,75 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+body ,html{
+    overflow-x: hidden;
+}
+.col{
+    background: linear-gradient(#264e4e, #2e6b62);
+
+    min-height: 650px;
+    width: 100%;
+    
+}
+.one{
+    background: linear-gradient(#264e4e, #2e6b62);
+    height: 600px;
+    width: 600px;
+    margin-left: 200px;
+    /* margin-top: 80px; */
+    border-radius: 20px;
+}
+.mb-3{
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name{
+    width: 400px;
+     margin-left: 100px;
+     opacity: 0.8;
+     border-radius: 10px;
+}
+#lastname{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+#exampleInputEmail1{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+#phone{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+#department{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+
+.btnn{
+    margin-left: 260px;
+   
+    background-color:rgb(39, 117, 113);
+    
+    text-align: center;
+   
+} 
+#subject{
+
+width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}

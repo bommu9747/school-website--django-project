@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
+</head>
+<link rel="stylesheet" href="../static/css/hod.css">
+<body>
+    <header><br>
+        <div class="sl"style="margin-left:380px;">
+            <h1>APEX INTERNATIONAL SCHOOL </h1><br>
+            <h4 style="margin-left: 240px;">DEPARTMENT</h4></div>
+        <!-- </div><BR><BR>
+        <section class="row">
+            <div class="column" >
+              <h2>ENGLISH DEPARTMENT</h2><br>
+              <p>Early English Language learning has been incorporated as a priority in all schools' educational plans. As part of the Primary Curriculum, it forms an essential part of the teaching of other subjects in the program, becoming the vehicle through which these subjects are taught. This high-level program will enable teachers to handle with ease and accuracy the teaching of integrated English at this educational stage, incorporating all the new developments that have arisen in the current educational landscape.</p>
+            </div>
+            <div class="column" >
+              <h2>MATHS DEPARTMENT</h2><br>
+              <p>In contemporary education, mathematics education, known in Europe as the didactics or pedagogy of mathematics – is the practice of teaching, learning and carrying out scholarly research into the transfer of mathematical knowledge..</p>
+            </div>
+            <div class="column">
+              <h2>SCINECE DEPARTMENT</h2><br>
+              <p>Science education is the teaching and learning of science to school children, college students, or adults within the general public. The field of science education includes work in science content, science process (the scientific method), some social science, and some teaching pedagogy. The standards for science education provide expectations for the development of understanding for students through the entire course of their K-12 education and beyond. </p>
+            </div>
+            <div class="column">
+                <h2>SOCIAL SCIENCE DEPARTMENT</h2><br>
+                <p>social studies is the integrated study of multiple fields of social science and the humanities, including history, culture, geography, and political science. The term was first coined by American educators around the turn of the twentieth century as a catch-all for these subjects, as well as others which did not fit into the traditional models of lower education in the United States, such as philosophy and psychology</p>
+            </div>
+            <div class="column">
+                <h2>LANGUAGE DEPARTMENT</h2><br>
+                <p>Language education  the process and practice of teaching a second or foreign language is primarily a branch of applied linguistics, but can be an interdisciplinary field.[1][2] There are four main learning categories for language education: communicative competencies, proficiencies, cross-cultural experiences, and multiple literacies</p>
+          </div>
+          <div class="column">
+            <h2>IT DEPARTMENT</h2><br>
+            <p>Information technology (IT) is the use of computers to create, process, store, retrieve, and exchange all kinds of data[1] and information. IT forms part of information and communications technology (ICT).[2] An information technology system (IT system) is generally an information system, a communications system, or, more specifically speaking, a computer system — including all hardware, software, and peripheral equipment — operated by a limited group of IT users</p>
+        </section>
+    </header> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end "  id="navbarNavDropdown"style="margin-right:300px;">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'school' %}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About as</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'viewstt' %}">TEACHER view</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'techre' %}">Add Teachers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'leavehoodd' %}">Leave Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="{% url 'viewsleaveteacher' %}" >Request</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="{% url 'examlistsview' %}" >view Exam</a>
+              </li>
+
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- <section class="banner_slider">
+        <div class="slide">
+          <div class="slide_content">
+            <p>socail science department</p>
+            <h2>sdtyuildrikrtyh</h2>
+            <div class="button_wrap">
+              <a href="#" class="btn btn_transparent">view more</a>
+              <a href="#" class="btn">our fortfolio</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide_two">
+          <div class="slide_content">
+            <p>socail science department</p>
+            <h2>sdtyuildrikrtyh</h2>
+            <div class="button_wrap">
+              <a href="#" class="btn btn_transparent">view more</a>
+              <a href="#" class="btn">our fortfolio</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide_three">
+          <div class="slide_content">
+            <p>socail science department</p>
+            <h2>sdtyuildrikrtyh</h2>
+            <div class="button_wrap">
+              <a href="#" class="btn btn_transparent">view more</a>
+              <a href="#" class="btn">our fortfolio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script type="text/javascript">
+        $('.banner_slider').slick({
+          dots:true,
+          arrows:true,
+          infinite:true,
+          speed:1000,
+          slideTOShow:1,
+          adaptiveHeight:true,
+          drag:true,
+          prevArrow: '<div class="slick-arrow prev"><span class="fa fa-angle-left"></span></div>',
+          nextArrow:'<div class="slick-arrow next"><span class="fa fa-angle-right></span></div>'
+        })
+          
+      </script> -->
+       <!-- <div class="container">
+        <div class="slide-container active">
+        <div class="slide">
+          <div class="content">
+            <h3>social scince</h3>
+            <p>sdfghjkk</p>
+            <a href="#" class="btn">Learn mlore</a>
+          </div>
+          <img src="../static/image/social.jpg" height="600px" width="100%">
+        </div></div>
+          <div class="slide-container">
+            <div class="slide">
+              <div class="content">
+                <h3>social scince</h3>
+                <p>sdfghjkk</p>
+                <a href="#" class="btn">Learn mlore</a>
+              </div>
+              <img src="../static/image/scinece.webp" height="600px" width="100%">
+            </div></div>
+            <div class="slide-container">
+              <div class="slide">
+                <div class="content">
+                  <h3>social scince</h3>
+                  <p>sdfghjkk</p>
+                  <a href="#" class="btn">Learn mlore</a>
+                </div>
+                <img src="../static/image/it.png" height="600px" width="100%">
+        </div>
+      </div>
+      <div id="next" onclick="next()">></div>
+        <div id="prev" onclick="prev()"> < </div>
+      </div>
+<script>
+  let slides= document.querySelectorAll('.slide-container');
+  let index = 0;
+  function next(){
+
+    slides[index].classList.remove('active');
+    index=(index-1 + slides.length)% slides.length;
+    slides[index].classList.add('active');
+  }
+  </script> -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../static/image/social.jpg" class="d-block w-100" alt="..." height="500px" width="100%">
+        <div class="carousel-caption d-none d-md-block ">
+          
+          <h2>SOCIAL SCINCES DEPARTMENT</h2>
+          <p>EDUCATION IS THE MOST POWERFULL WEAPON WHICH YOU CAN USE TO CHANGES THE WORLD</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../static/image/scinece.webp" class="d-block w-100" alt="..."  height="500px" width="100%">
+        <div class="carousel-caption d-none d-md-block align-middle">
+          <h2>SCINCES DEPARTMENT</h2>
+          <p>SCINCES IS THE PROCESS THAT TAKES US FROM CONFUSION TO UNDERSTANDING</p>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="../static/image/it.png" class="d-block w-100" alt="..." height="500px" width="100%">
+        <div class="carousel-caption d-none d-md-block align-top">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div> -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br><br><br>
+  <div class="about">
+    <h3 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">About As</h3>
+    <h6 style="text-align: center; ">Departments</h6><br>
+    <p style="text-align:unset; color: rgb(3, 3, 46);margin-left: 80px; font-family: Georgia, 'Times New Roman', Times, serif; text-transform: capitalize; font-style: italic;">Making Learning an Adventure is our commitment to children of all ages at Pinewood. Lessons are carefully planned out, delivered in an innovative, engaging and inspiring manner and very often taught by specialist teachers Within our Life Skills programme we aim to encourage core values of decency, good manners, honesty and consideration for others, linked closely with trust and mutual respect. </p>
+
+  </div><br>
+  <div class="container" style="background-color:rgb(203, 209, 221,0.5);">
+<div class="row row-cols-md-3">
+<div class="col">
+  <div class="card" style="width: 18rem; border: none;">
+    <img src="../static/image/computerlab.jpg" class="card-img-top" alt="..." style="height: 300px;">
+    
+     <div class="intro" style="border:none;">
+     <h4 style="font-family:'Times New Roman', Times, serif;margin-left: 30PX;">Computer Scinces</h4>
+     <p style="font-size: medium; color: black;    font-family: 'Courier New', Courier, monospace;">The Computer Science department believes that the ability to use Information and Communication Technology (ICT) effectively is an essential life skill in modern society.</p>
+     </div> 
+  </div>
+</div>
+<div class="col">
+  <div class="card" style="width: 18rem;  border: none;">
+    <img src="../static/image/maths.jpg" class="card-img-top" alt="..." style="height: 300px;">
+     <div class="intro">
+   <h4 style="font-family: 'Times New Roman', Times, serif;margin-left: 90PX;">Maths </h4>
+   <p style="font-size: medium; color: black;     font-family: 'Courier New', Courier, monospace;">Lessons are taught with a variety of activities, investigations, and games, concentrating on many different areas of Maths, whilst giving children the opportunity to explore different ideas and concepts.</p>
+    </div> 
+  </div>
+</div>
+<div class="col">
+  <div class="card" style="width: 18rem;  border: none;">
+    <img src="../static/image/scinces student.jpg" class="card-img-top" alt="..." style="height: 300px;">
+     <div class="intro">
+    <h4 style="font-family: 'Times New Roman', Times, serif;margin-left: 90PX;">Science</h4>
+    <p style="font-size: medium; color: black;     font-family: 'Courier New', Courier, monospace;">The main ethos of the Science department is to provide an engaging learning environment, with exciting practical investigations being the focus of the majority of lessons.</p>
+    </div> 
+  </div>
+</div>
+</div>
+  </div>
+<br>
+<div class="container" style="background-color:rgb(203, 209, 221,0.5);">
+<div class="row row-cols-md-3">
+<div class="col">
+  <div class="card" style="width: 18rem;  border: none;">
+    <img src="../static/image/english.jpg" class="card-img-top" alt="..." height="300px">
+    <div class="intro">
+       <h4 style="font-family: 'Times New Roman', Times, serif;margin-left: 90PX;">english</h4>
+       <p style="font-size: medium; color: black;   font-family: 'Courier New', Courier, monospace;">English is a vital way of communicating in school, in public life, and internationally. Literature in English is rich and influential, reflecting the experience of people from many countries and times.
+
+       </p>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card" style="width: 18rem;  border: none;">
+    <img src="../static/image/social scine student.jpg" class="card-img-top" alt="..." height="300px">
+    <div class="intro">
+    <h4 style="font-family: 'Times New Roman', Times, serif;margin-left: 60PX;">social science</h4>
+    <p  style="font-size: medium;      font-family:  'Courier New', Courier, monospace;    color: black;">The History syllabus at Pinewood aims to produce socially aware children who are able to ask pertinent questions,as well as giving intelligent and thoughtful answers.</p>
+    </div> 
+  </div>
+
+</div>
+<div class="col">
+  <div class="card" style="width: 18rem;  border: none;">
+    <img src="../static/image/botani4.jpg" class="card-img-top" alt="..." height="300px">
+     <div class="intro"> 
+      <h4 style="font-family: 'Times New Roman', Times, serif;margin-left: 90PX;">botani </h4>
+      <p style="font-size: medium; color: black;     font-family: 'Courier New', Courier, monospace;">TPE at Pinewood provides children with the opportunity to study religion and the nature of God, question and discuss philosophical concepts and consider ethical dilemmas.</p>
+    
+     </div>
+  </div>
+
+</div>
+
+
+</div>
+
+
+  </div><br>
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <form action="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-auto mb-4 mb-md-0">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-md-5 col-12 mb-4 mb-md-0">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example25" class="form-control" />
+              <label class="form-label" for="form5Example25">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-auto mb-4 mb-md-0">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary mb-4">
+              Submit
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    </body>
+</html>

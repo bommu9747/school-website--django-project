@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="../static/css/leave.css">
+</head>
+<body>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'school' %}" style="color: black;" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'hod' %}" style="color: black;">Back</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li> -->
+      </ul>
+
+    <div class="row" style="background-color:rgb(178, 206, 102); width:100vw;min-height: 750px; margin-top:10px;margin-left: 2px;" >
+        <h2 style="margin-left: 540PX;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: whitesmoke;">HOD LEAVE LETTER</h2>
+      <div class="row" style="background-color:rgb(185, 202, 88,0.7);border-radius: 40PX;border: 1PX solid white; height: 600px; width: 900px; margin-left:260px;margin-top: 10px;">
+        <div class="row g-3 align-items-" style="margin-left: 40PX;">
+          <form method="post" action="{% url 'reqhod' %}">
+            {% csrf_token %}
+            <div class="col-auto">
+                <label for="inputPassword6" class="col-form-label">NAME OF HOD</label>
+              </div>
+              <div class="col-auto">
+                <input type="text" id="DATE" class="form-control" aria-describedby="hod"name="name" style="width: 400px;" >
+              </div>
+              <div class="col-auto">
+                <label for="inputPassword6" class="col-form-label">ROLL</label>
+              </div>
+              <div class="col-auto">
+                <input type="text" id="text" class="form-control" aria-describedby="role" style="width: 140px;" name="role">
+              </div>
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">DATE OF LEAVE</label>
+            </div>
+            <div class="col-auto">
+              <input type="date" id="DATE" class="form-control" aria-describedby="DATE" name="date" style="width: 400px;">
+            </div>
+            <div class="col-auto">
+              <label for="inputPassword6" class="col-form-label">DEPARTMENT</label>
+            </div>
+            <div class="col-auto">
+              <input type="text" id="department" class="form-control" aria-describedby="DATE" name="department" style="width: 400px;">
+            </div>
+            
+           <br>
+          
+          <div class="form-floating" style="margin-bottom: 130PX;width: 600PX;">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 180px;width: 750px; opacity: 0.4;" name="reasons" ></textarea>
+            <label for="floatingTextarea2" >REASONS.....</label>
+          
+         <br>
+          <button style="margin-left: 370px;width: 80px;height: 30px;border: 1px solid white;">Submit</button>
+      </div>
+          </form>
+    </div>
+    
+      </div>
+</body>
+</html>

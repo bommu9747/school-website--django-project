@@ -1,0 +1,169 @@
+
+ *{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+
+ } 
+
+
+
+
+body ,html{
+   overflow-x: hidden;
+}
+
+
+ header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../image/APEX.jpeg");
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+   
+ }
+ 
+ .header-content{
+    margin-bottom: 100px;
+    text-align: center;
+
+ }
+ .header-content h2{
+    font-size: 4vwin;
+
+ }
+ .line{
+    width: 1000px;
+    background-color:whitesmoke;
+    height: 150px;
+    font-style: italic;
+    margin-inline-end: initial;
+    opacity: 0.8;
+    border: 3px solid grey;
+    border-radius: 20px;
+    
+ }
+ .line p{
+    color: blue;
+ }
+  .bg{
+    background-color: black;
+    height: 400px;
+    width: 1200px;
+ } 
+ section{
+    width: 80%;
+    margin: 80px auto;
+ }
+ .title{
+    
+    font-size: 4vmin;
+ }
+
+ .lines{
+    opacity: 0.6;
+    color: black;
+    font-size:medium;
+    margin-right: 30px;
+ }
+ .imgss{
+    display: flex;
+
+ }
+ section{
+   width: 80%;
+   margin: 80px auto;
+
+ }
+ .title{
+   text-align: center;
+   font-size: 4vmin;
+ }
+
+
+
+.ctn{
+   color: black;
+   border-radius: 30px;
+}
+/* button{
+   background-color: rgb(183, 198, 199);
+   align-items: center;
+   border-radius: 40px;
+   margin-left: 100px;
+} */
+/* .col p{
+   color: brown;
+} */
+/* .col{
+ 
+   border-radius: 20px;
+   background-color:rgb(236, 230, 230);
+   border: 1px solid gray;
+   -webkit-box-shadow:0px -1px 10px rgba(240, 230, 230, 0.5), 0px 1px 15px rgba(255, 244, 244, 0.7);
+   -moz-box-shadow:0px -1px 10px rgba(221, 211, 211, 0.5), 0px 1px 5px rgba(209, 201, 201, 0.7);
+   box-shadow:0px -1px 15px rgba(190, 185, 185, 0.5), 0px 1px 15px rgba(202, 194, 194, 0.7);
+     
+} */
+.bb:hover{
+   
+   -webkit-box-shadow:0px -1px 10px rgba(192, 152, 152, 0.5), 0px 1px 15px rgba(209, 124, 124, 0.7);
+   -moz-box-shadow:0px -1px 10px rgba(160, 121, 121, 0.5), 0px 1px 5px rgba(124, 86, 86, 0.7);
+   box-shadow:0px -1px 15px rgba(160, 125, 125, 0.5), 0px 1px 15px rgba(182, 127, 127, 0.7);
+
+}
+
+.ad{
+  
+   width: 100%;
+   height: 80vh;
+background-image: url("../image/ass.jpg"); 
+   background-repeat: round;
+ background-attachment: fixed;
+
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ /* opacity: 0.9; */
+
+ 
+}
+.card{
+   position: relative;
+   display: flex;
+   /* box-shadow: 0px 7px 10px rgba(255, 245, 245, 0.5); */
+   transition: 0.5s ease-in-out;
+   border:none;
+}
+.card:hover{
+   transform: translateY(20px);
+}
+.card:before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(to bottom,rgba(0,176,155,0.5),rgb(188, 194, 178));
+   z-index: 2;
+   transition: 0.8s all;
+   opacity: 0;
+}
+.card :hover :before{
+   opacity: 1;
+
+}
+.card img{
+   object-fit: cover;
+   /* position: absolute; */
+  top: 0;
+   left: 0;
+
+}
+

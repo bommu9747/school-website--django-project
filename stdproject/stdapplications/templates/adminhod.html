@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/adminhod.css">
+</head>
+<html>
+    <body>
+        <!-- <div class="one"> -->
+      <div class="row" style="background-color: rgb(167, 212, 197); width: 100vw;height: 760px;">
+        <div class="kk">
+        <h3 style="margin-left: 400px;margin-top: 60px; font-family: Arial, Helvetica, sans-serif;">APEX INTERNATIONAL SCHOOL</h3>
+    <h5 style="margin-left: 530px; ">HOD Of Department</h5>
+    <div class="row">
+        <div class="col-lg-6">
+    {% for i in data %}
+        <div class="maincontainer">
+            <div class="thecard">
+                <div class="thefront">
+                <P class="text-light" align="center" >{{i.name}}</P>
+                <p class="text-light" align="center">{{i.lastname}}</p>
+                <p class="text-light" align="center">{{i.username}}</p>
+                <p class="text-light" align="center">{{i.email}}</p>
+                <P class="text-light" align="center">{{i.phone}}</p>
+                <P class="text-light" align="center">{{i.department}}</p>
+                <p class="text-light"align="center">{{i.password}}</p>
+                <p class="text-light" align="center">{{i.Conform}}</p>
+                <P class="text-light"align="center">{{i.qualification}}</p>
+                <P class="text-light"align="center">{{i.years}}</p><br>
+                
+                
+                <div class="theback"><h2 style="margin-top: 100PX; color: beige;">DETAILS OF HOD </h2><br><br>
+                    <button style="margin-left: 20PX;width: 80px;height: 50px; border-radius: 20px;font-size: medium;"><a href="{% url 'deletehod' i.id %}">Reject</a></button>   <button style="margin-left: 30px;height: 50px; width: 80px;border-radius: 20px;font-size: medium;">Approve</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</div>
+   {% endfor %}
+      </div>
+     
+        
+           
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,96 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+body ,html{
+    overflow-x: hidden;
+}
+.col{background-color: rgb(136, 80, 228);
+    /* height: 1500px; */
+    width: 100%;
+    
+}
+.one{
+    background-color: rgba(183, 205, 233, 0.4);
+    /* min-height: 800px; */
+    width: 600px;
+    margin-left: 200px;
+    /* margin-top: 80px; */
+    border-radius: 20px;
+}
+.mb-3{
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#name{
+    width: 400px;
+     margin-left: 100px;
+     opacity: 0.8;
+     border-radius: 10px;
+}
+#lastname{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+/* #username{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+} */
+#exampleInputEmail1{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+#phone{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+#department{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+/* #password{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+
+}
+#Conform{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+} */
+#qualification{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+#years{
+    width: 400px;
+    margin-left: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.btnn{
+    margin-left: 260px;
+   
+    background-color:rgb(136, 80, 228);
+    
+    text-align: center;
+   
+}

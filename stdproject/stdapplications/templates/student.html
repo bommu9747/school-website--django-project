@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="../static/css/st.css">
+<body>
+    <div class="containerp">
+    
+        <div class="navbar">
+          <img src="../static/image/logo.jpeg" height="30PX" width="40PX">
+          <nav>
+            <ul>
+              <li style="margin-left:60px;"><a href="{% url 'school' %}">HOME</a></li>
+              <li><a href="{% url 'leavestudent' %}">Student Leave Letter Applications</a></li>
+              <li><a href="{% url 'publishmarkview' %}">View Exam Mark</a></li>
+              <li><a href="{% url 'stdnotification' %}">View Exam Notification</a></li>
+              <!-- <li><a href= style="color: black; margin-left: 630px;margin-top: 140px;">LEAVE LETTER</a></li> -->
+            </ul>
+          </nav>
+        </div><BR><BR><BR>
+        <div class="row" style="margin-bottom: 200px; margin-left: 340PX;">
+            <div class="col" >
+              <h1 >STUDENTS OF APEX SCHOOL</h1><BR><BR>
+              <P><p style="text-align:start;font-size: medium;opacity: 0.9;width: 800PX;margin-right: 10PX; color: rgb(255, 255, 255); font-family: Georgia, 'Times New Roman', Times, serif; text-transform: capitalize; font-style: italic; margin-right: 300PX;">Making Learning an Adventure is our commitment to children of all ages at Pinewood. Lessons are carefully planned out, delivered in an innovative, engaging and inspiring manner and very often taught by specialist teachers Within our Life Skills programme we aim to encourage core values of decency, good manners, honesty and consideration for others, linked closely with trust and mutual respect. </p></P>
+              <button type="button">Read more</button>
+            </div>
+    </div>
+       
+    
+    <div class="row">
+        <div class="col-sm-4">
+          <div class="card " style="opacity: 0.7;width:400PX;">
+            <div class="card-body">
+              <h5 class="card-title">STUDENT DETAILS</h5>
+              <p class="card-text">The student profile shows an overview of course performance and student information. </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card"  style="opacity: 0.7;width:400PX;">
+            <div class="card-body">
+              <h5 class="card-title">MARK DETAILS</h5>
+              <p class="card-text">It is the purpose of a marking system to evaluate the academic
+                work done by students</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card"  style="opacity: 0.7;width:400PX;">
+              <div class="card-body">
+                <h5 class="card-title">EXTRA ACTIVITY</h5>
+                <p class="card-text">Probability of the student receiving a passing course grade.</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+
+      </div>
+      </div>
+        </div>
+    </div>
+    
+</body>
+</body>
+</html>

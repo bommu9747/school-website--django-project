@@ -1,0 +1,95 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+
+
+body ,html{
+    overflow-x: hidden;
+ }
+
+
+
+.containerp{
+    width: 100%;
+    /* height:600px; */
+    min-height:600PX;
+    background:rgba(121, 109, 109, 0.5)url("../image/uni.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    background-attachment: fixed;
+   
+
+    
+    /* background-color: rgba(11, 11, 51, 0.9); */
+    
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items:center;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+
+}
+nav{
+    flex: 1;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:140px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(217, 217, 233);
+    font-size:medium;
+    font-weight: bolder;
+    
+    /* background-color: bisque; */
+   
+}
+.row{
+    display: flex; 
+    /* margin-bottom: 300px; */
+    align-items: center;
+    width: 100%;
+
+}
+.col{
+    flex-basis: 50%;
+    
+   
+}
+h1{
+    color: rgb(248, 248, 248);
+    font-size:xx-large;
+   
+}
+p{
+    color: rgb(34, 32, 32);
+    font-size:large;
+    /* line-height: 15px; */
+    /* margin-bottom: 300px; */
+    /* background-color: rgb(178, 178, 196); */
+    width: 100%;
+    margin-right:100PX;
+
+}
+button{
+    width: 180px;
+    color: rgb(253, 248, 248);
+    font-size: 12px;
+    padding: 12 px 0;
+    background-color: rgb(0, 15, 100);
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    height: 30px;
+    margin-left: 300PX;
+}

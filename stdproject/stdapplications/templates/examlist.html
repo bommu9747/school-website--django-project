@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="../static/css/exam.css">
+</head>
+<body>
+  <a href="#" style="margin-left: 300px;margin-top: 40px; padding: 30px; color: whitesmoke;">HOME</a>
+    <a href="#"style="color: whitesmoke;">BACK</a><br><br>
+  <div class="login-box">
+    <h2>EXAM TIME TABLE</h2>
+    <form method="post" action="{% url 'examstd' %}">
+
+      {% csrf_token %}
+
+      <div class="user-box">
+        <input value="{{i.subject}}" type="text" name="subject" required="" >
+        <label>Subject</label>
+      </div>
+      <div class="user-box">
+        <input value="{{i.department}}" type="text" name="department" required="" >
+        <label>Department</label>
+      </div>
+      <div class="user-box">
+        <input value="{{i.date}}" type="text" name="date" required="" >
+        <label>Date</label>
+      </div>
+      <div class="user-box">
+        <input value="{{i.messages}}" type="text" name="messages" required="" style="height: 150px;" >
+        <label>Messages</label>
+      </div>
+      <a>
+      <input type="submit" value="submit">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      
+      </a>
+    </form>
+  </div>
+    
+</body>
+</html>

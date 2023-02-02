@@ -1,0 +1,19 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+body ,html{
+    overflow-x: hidden;
+}
+.row{
+    background: linear-gradient(#974693, #86768f);
+    min-height: 700px;
+    /* width: 100%; */
+    
+}
+.mb-3{
+    webkit-box-shadow:0px -1px 25px rgba(83, 75, 75, 0.5), 0px 1px 225px rgba(41, 33, 33, 0.7);
+   -moz-box-shadow:0px -1px 25px rgba(53, 45, 45, 0.5), 0px 10px 5px rgba(46, 39, 39, 0.7);
+   box-shadow:0px -1px 25px rgba(54, 48, 48, 0.5), 0px 10px 25px rgba(43, 37, 37, 0.7);
+}

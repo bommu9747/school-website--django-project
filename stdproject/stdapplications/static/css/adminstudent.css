@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body ,html{
+    overflow-x: hidden;
+ }
+.row{
+    height: 300px;
+    width: 100%;
+    background-color: chocolate;
+
+}
